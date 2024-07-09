@@ -1,8 +1,8 @@
-# React + Vite
+# Pokemon List con Infinite Scroll (React)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Google reemplazó el pagineo por un Infinite Scroll, que a simple vista pareciera un cambio pequeño pero muy significante en el UX/UI
+como usuarios de smartphones, las apps de redes sociales nos han acostumbrado a este tipo de comportamientos.
 
-Currently, two official plugins are available:
+En el [React Digest](https://newsletter.reactdigest.net/p/enhancing-new-york-times-web-performance-react-18?utm_source=newsletter.reactdigest.net&utm_medium=newsletter&utm_campaign=enhancing-the-new-york-times-web-performance-with-react-18) de esta semana, uno de los artículos proponía un challenge para implementar el infite Scroll en React utilizando la [Intersection Observer API](https://developer.mozilla.org/en-US/docs/Web/API/Intersection_Observer_API?ref=reactpractice.dev), una manera interesante y nativa de poder trabajar con las APIs de los navegadores y sin utilizar librerías de terceros.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+A continuación les comparto mi solución, en el artículo hay una solución propuesta pero, hay varios cambios que me tomé la molestia en agregar. La aplicación usa VITE como generador del boilerplate.
